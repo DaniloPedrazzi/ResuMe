@@ -1,6 +1,5 @@
 import logo from '../assets/logo.svg'
 
-
 const Hero = () => {
   return (
     <header className="w-full flex justify-center items-center flex-col">
@@ -12,6 +11,10 @@ const Hero = () => {
       <h1 className='head_text'>Resuma <br /> Artigos com <br />
       <span className='purple_gradient'>OpenAI GPT-4</span>
       </h1>
+      <h2 className='desc'>
+        Simplifique sua leitura com o Summize, um resumidor de artigos open-source
+        que transforma artigos longos em resumos claros e concisos
+      </h2>
     </header>
   )
 }
